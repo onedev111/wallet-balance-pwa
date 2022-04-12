@@ -1,0 +1,17 @@
+@import "bootstrap/scss/bootstrap";
+@import "components/components";
+
+.app {
+	width: 100vw;
+	height: 100vh;
+	overflow: scroll;
+}
+
+.app-dark {
+	background-color: var(--bs-dark);
+	color: white;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
